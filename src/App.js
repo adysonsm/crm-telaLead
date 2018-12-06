@@ -12,6 +12,7 @@ import SiderEmaill from './componentes/siderEmaill/SiderEmaill';
 import SiderDetails from './componentes/siderDetails/SiderDetails';
 import SiderOrganization from './componentes/siderOrganization/SiderOrganization';
 import HeaderBar from './componentes/headerBar/HeaderBar';
+import AlertList from './componentes/alertList/AlertList';
 
 
 const {
@@ -26,6 +27,7 @@ class App extends Component {
       <div className="App">
 
       <HeaderBar/>
+      <AlertList/>
 
 
         <Layout  style={{ padding: '10px 0', background: '#e7e7e7' }}>
