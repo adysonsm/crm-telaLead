@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import {Card, Icon, Input, Row, Col } from 'antd';
+import { Button } from 'antd/lib/radio';
 
 
 class SiderDetails extends React.Component {
@@ -13,7 +14,7 @@ class SiderDetails extends React.Component {
          <Card
          className="card"
          title="DETAILS"  
-         extra={[<Icon type="edit" />,<Icon type="colum-height" />,<button size="small" >Customise Field </button>]}       
+         extra={[<Icon type="edit" />,<Icon type="colum-height" />,<Button size="small" >Customise fields</Button>]}       
          
          >
 

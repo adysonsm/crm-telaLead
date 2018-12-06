@@ -11,6 +11,7 @@ import SiderParticipants from './componentes/siderParticipants/SiderParticipants
 import SiderEmaill from './componentes/siderEmaill/SiderEmaill';
 import SiderDetails from './componentes/siderDetails/SiderDetails';
 import SiderOrganization from './componentes/siderOrganization/SiderOrganization';
+import HeaderBar from './componentes/headerBar/HeaderBar';
 
 
 const {
@@ -24,10 +25,12 @@ class App extends Component {
     return (
       <div className="App">
 
+      <HeaderBar/>
+
+
         <Layout  style={{ padding: '10px 0', background: '#e7e7e7' }}>
-          <Sider  style={{ padding: '10px 0', background: '#e7e7e7' }} width={400} >
 
-
+          <Sider  style={{ padding: '10px 0', margin:'10px', background: '#e7e7e7' }} width={400} >
 
                       
                 <SiderDetails/>
