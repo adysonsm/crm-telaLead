@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Layout } from 'antd';
+import { Layout, Table } from 'antd';
 import './App.css';  
 import 'antd/dist/antd.css';
 import SiderPerson from './componentes/siderPerson/SiderPerson';
@@ -13,6 +13,9 @@ import SiderDetails from './componentes/siderDetails/SiderDetails';
 import SiderOrganization from './componentes/siderOrganization/SiderOrganization';
 import HeaderBar from './componentes/headerBar/HeaderBar';
 import AlertList from './componentes/alertList/AlertList';
+import TabelaLeadSegmento from './componentes/tabelaLeadSegmento/TabelaLeadSegmento';
+import TabelaOrigemLeads from './componentes/tabelaOrigemLeads/TabelaOrigemLeads';
+
 
 
 const {
@@ -28,6 +31,11 @@ class App extends Component {
 
       <HeaderBar/>
       <AlertList/>
+      <TabelaLeadSegmento/>
+
+      <TabelaOrigemLeads/>
+    
+
 
 
         <Layout  style={{ padding: '10px 0', background: '#e7e7e7' }}>
