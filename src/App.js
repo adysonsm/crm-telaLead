@@ -15,6 +15,9 @@ import HeaderBar from './componentes/headerBar/HeaderBar';
 import AlertList from './componentes/alertList/AlertList';
 import TabelaLeadSegmento from './componentes/tabelaLeadSegmento/TabelaLeadSegmento';
 import TabelaOrigemLeads from './componentes/tabelaOrigemLeads/TabelaOrigemLeads';
+import TabelaFunilContas from './componentes/tabelaFunilContas/TabelaFunilContas';
+import TabelaFunilVendasMes from './componentes/tabelaVendaMes/TabelaFunilVendaMes';
+
 
 
 
@@ -34,7 +37,11 @@ class App extends Component {
       <TabelaLeadSegmento/>
 
       <TabelaOrigemLeads/>
-    
+      
+      <TabelaFunilContas/>
+      <TabelaFunilVendasMes/>
+      
+      
 
 
 

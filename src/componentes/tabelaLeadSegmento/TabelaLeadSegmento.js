@@ -143,7 +143,7 @@ data.push({
 
 
 
-class TabelaFunilContas extends React.Component {
+class TabelaLeadSegmento extends React.Component {
 
     render() {
 
@@ -159,4 +159,4 @@ class TabelaFunilContas extends React.Component {
     }
 }
 
-export default  TabelaFunilContas;
+export default  TabelaLeadSegmento;
